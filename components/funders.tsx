@@ -14,9 +14,6 @@ export default function Funders() {
         <div className="w-[22%] aspect-3/2 object-contain filter grayscale">
           <img src="/logos/sde-black.png" alt="Logo ALVE" />
         </div>
-        {/* <div className="w-[15%] aspect-3/2 object-contain filter grayscale">
-          <img src="/logos/CPRD.png" alt="Logo ALVE" />
-        </div> */}
       </div>
     </>
   );

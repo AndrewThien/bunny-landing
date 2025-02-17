@@ -20,18 +20,11 @@ export const Hero = () => {
           >
             Your secure gateway to OMOP cohort discovery
           </h1>
-          {/* <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-            Bunny simplifies data governance through result obfuscation while
-            working with any compatible upstream Task API.
-          </p> */}
           <div className="mt-16 flex items-center justify-center gap-x-6">
             <a
               href="https://health-informatics-uon.github.io/hutch/bunny"
               target="_blank"
             >
-              {/* <Button className="flex gap-2 text-lg" size={"lg"}>
-                Explore Docs Today! <Book />
-              </Button> */}
               <ShimmerButton className="shadow-2xl flex">
                 <span
                   className={cn(
@@ -42,9 +35,6 @@ export const Hero = () => {
                   Explore Docs Today! <ArrowRight className="opacity-85" />
                 </span>
               </ShimmerButton>
-              {/* <ShinyButton>
-                Explore Docs Today! <Book className="opacity-70" />
-              </ShinyButton> */}
             </a>
           </div>
         </div>
