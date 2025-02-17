@@ -2,7 +2,6 @@
 
 import Funders from "@/components/funders";
 import { Hero } from "@/components/hero";
-import { DotPattern } from "@/components/magicui/dot-pattern";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { cn } from "@/lib/utils";
 

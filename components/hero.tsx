@@ -1,7 +1,5 @@
-import { ArrowBigLeft, ArrowRight, Book } from "lucide-react";
-import { Button } from "./ui/button";
-import { ShinyButton } from "./magicui/shiny-button";
-import { PT_Serif, Nunito, Roboto, Open_Sans } from "next/font/google";
+import { ArrowRight } from "lucide-react";
+import { Roboto } from "next/font/google";
 import { ShimmerButton } from "./magicui/shimmer-button";
 import { cn } from "@/lib/utils";
 

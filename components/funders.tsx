@@ -1,6 +1,3 @@
-import { BoxReveal } from "@/components/magicui/box-reveal";
-import Image from "next/image";
-
 export default function Funders() {
   return (
     <>
