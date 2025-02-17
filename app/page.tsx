@@ -3,6 +3,7 @@
 import Funders from "@/components/funders";
 import { Hero } from "@/components/hero";
 import { DotPattern } from "@/components/magicui/dot-pattern";
+import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { cn } from "@/lib/utils";
 
 export default function Page() {
@@ -77,13 +78,18 @@ export default function Page() {
           </DialogPanel>
         </Dialog>
       </header> */}
-      <DotPattern
-        className={cn(
-          "[mask-image:radial-gradient(700px_circle_at_center,white,transparent)]"
-        )}
-      />
       <Hero />
       <Funders />
+      <FlickeringGrid
+        className="absolute inset-0 z-0 [mask-image:radial-gradient(1000px_circle_at_center,white,transparent)]"
+        squareSize={4}
+        gridGap={12}
+        color="#6B7280"
+        maxOpacity={0.5}
+        flickerChance={0.5}
+        // height={800}
+        // width={800}
+      />
     </div>
   );
 }
